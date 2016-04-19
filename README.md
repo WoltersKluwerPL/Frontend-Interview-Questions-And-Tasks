@@ -1,12 +1,12 @@
 # Frontend-Interview-Questions-And-Tasks
 
-### Questions
+## Questions
 
-### Tasks
+## Tasks
 
-#### Angular
+### Angular
 
-##### 1.x
+#### 1.x
 
 - [performance](/tasks/angular/1.x/performance)
 - [scope-hierarchy](/tasks/angular/1.x/scope-hierarchy)
