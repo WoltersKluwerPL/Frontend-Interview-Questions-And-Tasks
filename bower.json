@@ -1,0 +1,14 @@
+{
+  "name": "Frontend-Interview-Questions-And-Tasks",
+  "version": "0.0.1",
+  "description": "Frontend Interview Questions And Tasks",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angularjs": "1.5.5",
+    "angular-debug-bar": "1.0.0"
+  }
+}
