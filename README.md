@@ -12,3 +12,13 @@
 - [scope-hierarchy](/tasks/angular/1.x/scope-hierarchy)
 - [simple-directive](/tasks/angular/1.x/simple-directive)
 - [simple-service](/tasks/angular/1.x/simple-service)
+
+### JavaScript
+
+- [get-a-value-1](/tasks/javascript/get-a-value-1.js)
+- [get-a-value-2](/tasks/javascript/get-a-value-2.js)
+- [get-a-value-3](/tasks/javascript/get-a-value-3.js)
+- [get-a-value-4](/tasks/javascript/get-a-value-4.js)
+- [variable-scope-1](/tasks/javascript/variable-scope-1.js)
+- [variable-scope-2](/tasks/javascript/variable-scope-2.js)
+- [variable-scope-3](/tasks/javascript/variable-scope-3.js)
