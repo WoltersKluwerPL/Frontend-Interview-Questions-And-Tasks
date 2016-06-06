@@ -38,7 +38,7 @@ console.log(n);
 
 //
 
-var n = 1;
+n = 1;
 
 (function printSomething () {
   console.log(n);
