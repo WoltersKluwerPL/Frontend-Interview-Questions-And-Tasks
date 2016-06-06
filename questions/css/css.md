@@ -21,4 +21,4 @@ CSS
 * What are your favourite `image replacement` techniques and which do you use when
 * Explain the technique of `CSS sprites` and how you would implement them on a page.
 * What tricks do you use for writing efficient CSS?
-* Explain how a browser determines what elements match `CSS selector?`
+* Explain how a browser determines what elements match `CSS selector`?
