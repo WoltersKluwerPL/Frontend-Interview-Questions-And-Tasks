@@ -4,13 +4,10 @@
   /**
    * TODO
    *
-   * Write simple directive, which shows us text `Hello world from AngularJS directive!`
+   * Write simple directive, which shows us only the text `Hello world from AngularJS directive!`
    *
    * Use case:
    * <div simple-directive></div>
-   *
-   * Expected result:
-   * <div simple-directive>Hello world from AngularJS directive!</div>
    */
   angular.module('APP', ['angular-debug-bar']);
 
