@@ -17,7 +17,7 @@ AngularJS 1.x
 
 * What is the difference between `.service` | `.factory` | `.provider`?
 * How can we create a simple directive?
-* odularization in `AngularJS`? How is it done?
+* Modularization in `AngularJS`? How is it done?
 * What is the `two-way data binding`?
 * What are the steps to build 'AngularJS' application. Please, discuss briefly.
 * What is the difference between `link` and` compile` function in the directive?
