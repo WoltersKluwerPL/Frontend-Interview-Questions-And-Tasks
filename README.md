@@ -24,6 +24,7 @@
 - [get-a-value-2](/tasks/javascript/get-a-value-2.js)
 - [get-a-value-3](/tasks/javascript/get-a-value-3.js)
 - [get-a-value-4](/tasks/javascript/get-a-value-4.js)
+- [timeout-1](/tasks/javascript/timeout-1.js)
 - [variable-scope-1](/tasks/javascript/variable-scope-1.js)
 - [variable-scope-2](/tasks/javascript/variable-scope-2.js)
 - [variable-scope-3](/tasks/javascript/variable-scope-3.js)
