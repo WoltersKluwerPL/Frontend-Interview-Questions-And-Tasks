@@ -8,7 +8,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "angularjs": "1.5.5",
+    "angularjs": "1.5.8",
     "angular-debug-bar": "1.0.0"
   }
 }
