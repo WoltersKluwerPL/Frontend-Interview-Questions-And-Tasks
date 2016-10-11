@@ -8,9 +8,11 @@
 </head>
 
 <body ng-app="APP">
-<div ng-controller="PerformanceCtrl">
-  <input type="text" ng-model="filter.query"/>
-  <table ng-show="getItems().length">
+<div ng-controller="PerformanceCtrl as vm">
+  <label>
+    <input type="text" ng-model="filter.query"/>
+  </label>
+  <table ng-show="vm.getItems().length">
     <thead>
     <tr>
       <th>ID</th>
@@ -19,7 +21,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr ng-repeat="item in getItems() | filter:filter.query" post-repeat-tracker>
+    <tr ng-repeat="item in vm.getItems() | filter:filter.query" post-repeat-tracker>
       <td>{{ item.id }}</td>
       <td>{{ item.name }}</td>
       <td>

@@ -13,9 +13,15 @@
   angular.module('APP', ['angular-debug-bar']);
 
   angular.module('APP')
-    .factory('PerformanceService', PerformanceSrvice)
-    .factory('TimeTrackerService', TimeTrackerService)
-    .directive('postRepeatTracker', postRepeatTracker)
+    .factory('PerformanceService', PerformanceSrvice);
+
+  angular.module('APP')
+    .factory('TimeTrackerService', TimeTrackerService);
+
+  angular.module('APP')
+    .directive('postRepeatTracker', postRepeatTracker);
+
+  angular.module('APP')
     .controller('PerformanceCtrl', PerformanceCtrl);
 
   function PerformanceSrvice () {
@@ -28,49 +34,56 @@
     }
 
     return {
-      generateData: function generateData (rows) {
-        rows = rows || 5000;
-
-        var items = [];
-        for (var i = 1; i <= rows; i++) {
-          items.push(new Item(i, ['id-', i].join('')));
-        }
-        return items;
-      }
+      generateData: generateData
     };
+
+    function generateData (rows) {
+      var items = [];
+      for (var i = 1; i <= rows; i++) {
+        items.push(new Item(i, ['id-', i].join('')));
+      }
+      return items;
+    }
   }
 
   function TimeTrackerService ($log) {
     var ref;
     return {
-      start: function start () {
-        ref = new Date();
-      },
-      stop: function stop () {
-        var end = new Date();
-        $log.debug('### Table rendering took: ' + (end - ref) + ' ms');
-      }
+      start: start,
+      stop: stop
     };
+
+    function start () {
+      ref = new Date();
+    }
+
+    function stop () {
+      var end = new Date();
+      $log.info('### Table rendering: ' + (end - ref) + ' ms');
+    }
   }
 
   function postRepeatTracker (TimeTrackerService) {
     return {
       restrict: 'A',
-      link: function ($scope) {
-        if ($scope.$first) {
-          TimeTrackerService.start();
-        }
-        if ($scope.$last) {
-          $scope.$evalAsync(TimeTrackerService.stop);
-        }
-      }
+      link: link
     };
+
+    function link ($scope) {
+      if ($scope.$first) {
+        TimeTrackerService.start();
+      }
+      if ($scope.$last) {
+        $scope.$evalAsync(TimeTrackerService.stop);
+      }
+    }
   }
 
-  function PerformanceCtrl ($scope, PerformanceService) {
-    var items = PerformanceService.generateData();
+  function PerformanceCtrl (PerformanceService) {
+    var vm = this,
+      items = PerformanceService.generateData(5000);
 
-    $scope.getItems = function () {
+    vm.getItems = function () {
       return items;
     };
   }
