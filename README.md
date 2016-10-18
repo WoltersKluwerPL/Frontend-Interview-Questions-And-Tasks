@@ -14,9 +14,8 @@
 #### 1.x
 
 - [performance](/tasks/angular/1.x/performance)
-- [scope-hierarchy](/tasks/angular/1.x/scope-hierarchy)
 - [simple-directive](/tasks/angular/1.x/simple-directive)
-- [simple-service](/tasks/angular/1.x/simple-service)
+- [user-service](/tasks/angular/1.x/user-service)
 
 ### JavaScript
 
@@ -24,6 +23,8 @@
 - [get-a-value-2](/tasks/javascript/get-a-value-2.js)
 - [get-a-value-3](/tasks/javascript/get-a-value-3.js)
 - [get-a-value-4](/tasks/javascript/get-a-value-4.js)
+- [string-reverse](/tasks/javascript/string-reverse.js)
+- [this-1](/tasks/javascript/this-1.js)
 - [timeout-1](/tasks/javascript/timeout-1.js)
 - [variable-scope-1](/tasks/javascript/variable-scope-1.js)
 - [variable-scope-2](/tasks/javascript/variable-scope-2.js)
