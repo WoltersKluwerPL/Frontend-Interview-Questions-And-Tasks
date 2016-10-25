@@ -9,30 +9,22 @@
       {
         id: '1',
         name: 'Jane',
-        role: 'Designer',
-        location: 'New York',
-        twitter: 'gijane'
+        role: 'Designer'
       },
       {
         id: '2',
         name: 'Bob',
-        role: 'Developer',
-        location: 'New York',
-        twitter: 'billybob'
+        role: 'Developer'
       },
       {
         id: '3',
         name: 'Jim',
-        role: 'Developer',
-        location: 'Chicago',
-        twitter: 'jimbo'
+        role: 'Developer'
       },
       {
         id: '4',
         name: 'Bill',
-        role: 'Designer',
-        location: 'LA',
-        twitter: 'dabill'
+        role: 'Designer'
       }
     ];
 
