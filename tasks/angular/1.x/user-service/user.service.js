@@ -7,22 +7,22 @@
   function UserService () {
     var userList = [
       {
-        id: '1',
+        id: 1,
         name: 'Jane',
         role: 'Designer'
       },
       {
-        id: '2',
+        id: 2,
         name: 'Bob',
         role: 'Developer'
       },
       {
-        id: '3',
+        id: 3,
         name: 'Jim',
         role: 'Developer'
       },
       {
-        id: '4',
+        id: 4,
         name: 'Bill',
         role: 'Designer'
       }
