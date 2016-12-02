@@ -8,8 +8,8 @@
     "bower_components"
   ],
   "dependencies": {
-    "angular": "1.5.8",
-    "angular-mocks": "1.5.8",
+    "angular": "1.5.9",
+    "angular-mocks": "1.5.9",
     "angular-debug-bar": "1.0.0"
   }
 }
